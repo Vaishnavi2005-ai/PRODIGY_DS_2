@@ -23,10 +23,6 @@ df.hist(figsize=(10, 6), edgecolor='black')
 plt.suptitle('Feature Distributions')
 plt.show()
 
-# Pairplot for feature comparison
-sns.pairplot(df, hue='species')
-plt.suptitle('Pairwise Relationships', y=1.02)
-plt.show()
 
 # Boxplot for features by species
 plt.figure(figsize=(10, 6))
